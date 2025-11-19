@@ -1,0 +1,6 @@
+name,math,science,english,gender,passed,gender_encoded
+Alice,85.0,78.0,92.0,Female,True,0
+Bob,90.0,78.75,88.0,Male,True,1
+Charlie,72.0,65.0,88.25,Male,False,1
+Diana,85.5,80.0,79.0,Female,True,0
+Emily,95.0,92.0,94.0,Female,True,0

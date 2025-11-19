@@ -1,0 +1,6 @@
+name,math,science,english,gender,passed
+Alice,85,78,92,Female,True
+Bob,90,,88,Male,True
+Charlie,72,65,,Male,False
+Diana,,80,79,Female,True
+Emily,95,92,94,Female,True
