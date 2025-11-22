@@ -1,0 +1,3 @@
+math,science,english,gender_encoded,total_score,avg_score,actual_passed,predicted_passed
+90.0,78.75,88.0,1,256.75,85.58333333333333,True,True
+95.0,92.0,94.0,0,281.0,93.66666666666669,True,True
