@@ -1,19 +1,23 @@
-# Sentiment Analysis – Machine Learning Classification
+# Sentiment Analysis – Text Classification (ML Project)
 
-**Goal:** Build a sentiment classifier using classical ML (e.g., Logistic Regression / SVM) on text data.
+A machine learning project to classify text (sentences) into sentiment labels  
+(e.g., positive vs negative). This is a core type of problem in NLP and is used in:
+- product reviews
+- customer feedback analysis
+- social media monitoring
+- chatbot understanding
 
-### Project Structure
-- `data/` – raw and processed datasets  
-- `notebooks/` – Jupyter notebooks for EDA and experimentation  
-- `src/` – Python modules for preprocessing, model training, and evaluation  
-- `models/` – saved trained models (`.pkl` or similar formats)  
-- `requirements.txt` – list of Python dependencies for this project  
+## 🎯 Project Goals
+- Build a clean, modular sentiment analysis pipeline.
+- Use classical ML (e.g., Logistic Regression, SVM) on text features.
+- Later, extend to more advanced models (e.g., TF-IDF, possibly transformers).
 
-### Tech Stack
-- Python
-- Pandas
-- NumPy
-- scikit-learn
-- matplotlib
+## 🗂 Project Structure
+- `data/` – raw and processed text datasets.
+- `notebooks/` – EDA, text cleaning, experiments.
+- `src/` – Python modules for preprocessing, training, evaluation.
+- `models/` – saved trained models.
+- `reports/` – metrics, project structure, documentation.
+- `requirements.txt` – dependencies list.
 
-Detailed implementation coming soon.
+More details coming as the project evolves.

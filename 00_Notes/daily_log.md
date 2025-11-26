@@ -194,3 +194,21 @@
 - Turn this into a proper mini ML project folder  
 - Begin designing your first portfolio-ready ML project
 
+---
+
+### Continued – Nov 22, 2025
+
+**Learned / Did:**
+- Created EDA notebook with:
+  - basic DataFrame inspection
+  - missing value check
+  - target distribution
+  - score histograms
+  - boxplots & barplots
+- Documented project structure and reports.
+- Finalized student performance prediction as a portfolio-ready ML project.
+
+**Built:**
+- `notebooks/eda.ipynb`
+- Updated `reports/README.md`
+- Updated `reports/project_structure.md`
