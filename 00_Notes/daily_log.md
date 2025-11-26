@@ -212,3 +212,15 @@
 - `notebooks/eda.ipynb`
 - Updated `reports/README.md`
 - Updated `reports/project_structure.md`
+
+---
+
+### Continued – Nov 25, 2025
+
+**Learned / Did:**
+- Designed a clean ML project structure for an NLP/Sentiment Analysis project.
+- Created folders for data, models, notebooks, src, and reports.
+- Added root README and basic documentation.
+
+**Built:**
+- `ML/sentiment_analysis` project skeleton

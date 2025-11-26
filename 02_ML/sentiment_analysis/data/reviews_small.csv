@@ -1,0 +1,11 @@
+text,sentiment
+"I love this product, it works really well!",positive
+"This is the worst experience I've ever had.",negative
+"Absolutely fantastic service. I am very happy.",positive
+"I am disappointed, the quality is very bad.",negative
+"This is okay, not great but not terrible either.",negative
+"I would definitely recommend this to my friends.",positive
+"The support team was rude and unhelpful.",negative
+"This made my day, I feel so good using it.",positive
+"It broke after two days, total waste of money.",negative
+"Pretty decent overall, I'm satisfied.",positive
