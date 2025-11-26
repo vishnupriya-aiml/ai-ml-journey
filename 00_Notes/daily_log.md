@@ -224,3 +224,21 @@
 
 **Built:**
 - `ML/sentiment_analysis` project skeleton
+
+
+---
+
+### Sentiment Project – (date you want, e.g., Nov 25, 2025)
+
+**Learned / Did:**
+- Designed a small labeled text dataset for sentiment analysis.
+- Implemented text cleaning (lowercase, remove punctuation, normalize spaces).
+- Built preprocessing pipeline using:
+  - CountVectorizer
+  - train/test split
+- Tested preprocessing through a small script.
+
+**Built:**
+- `ML/sentiment_analysis/data/reviews_small.csv`
+- `ML/sentiment_analysis/src/data_preprocessing.py`
+- test logic in `train_model.py`
