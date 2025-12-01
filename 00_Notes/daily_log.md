@@ -271,3 +271,17 @@
 
 **Built:**
 - `02_ML/fake_news_detection` project skeleton
+
+---
+
+### Fake News Detection – Data & Preprocessing (Dec 01, 2025)
+
+**Learned / Did:**
+- Created a small labeled fake vs real news dataset.
+- Implemented text cleaning for news headlines.
+- Used TF-IDF (unigrams + bigrams, stopwords removed) to convert text to features.
+- Performed train/test split with stratification.
+
+**Built:**
+- `02_ML/fake_news_detection/data/fake_news_small.csv`
+- `02_ML/fake_news_detection/src/data_preprocessing.py`
