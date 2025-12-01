@@ -1,91 +1,108 @@
-# AI / ML Journey – Vishnu Priya
+# Vishnu Priya – AI/ML Engineering Portfolio
 
-This repository contains my structured journey from zero to AI/ML Engineer.  
-All code, projects, and notes are organized by topic and timeline.
+Welcome to my AI/ML engineering portfolio.  
+This repository is a collection of real end-to-end projects focused on:
 
-## 👩‍💻 About Me (Short)
+- clean coding
+- structured workflows
+- practical ML/NLP problem-solving
+- building models that can be deployed and used in real applications
 
-- International student in the USA (MS in Technology Management).
-- Actively preparing for AI/ML Engineer roles.
-- Focusing on **Python, ML, NLP, and practical end-to-end projects**.
-- All work here is hands-on – scripts, models, EDA, and small apps.
-
----
-
-## 🗂 Repository Structure
-
-- `00_Notes/` – Daily learning logs and planning.
-- `01_Python/` – Core Python foundations (data types, control flow, files, pandas).
-- `02_ML/` – Machine Learning & NLP projects:
-  - `student_performance_prediction/`
-  - `sentiment_analysis/`
-  - `fake_news_detection/`
-- Future:
-  - `DL/` – Deep Learning projects
-  - `NLP/` – Advanced NLP projects
-  - `portfolio/`, `resume/`, `linkedin/`, `applications/`, `interview_prep/`
+All projects include complete pipelines — data, preprocessing, model training, evaluation, and where relevant, small apps.
 
 ---
 
-## 🔑 Key AI/ML Projects
+## 🚀 Skills Overview
 
-### 1️⃣ Student Performance Prediction (Tabular ML)
+### **Core**
+- Python (data structures, functions, file I/O)
+- Data cleaning & preprocessing  
+- Exploratory Data Analysis (EDA)
+- Machine Learning (Scikit-Learn)
+- NLP: text cleaning, TF-IDF, CountVectorizer
+- Model evaluation: accuracy, precision, recall, F1, confusion matrix
 
-**Path:** `02_ML/student_performance_prediction`  
-
-**Description:**  
-Predicts whether a student passes based on scores and engineered features.
-
-**Highlights:**
-- Clean project structure (data, src, models, reports, notebooks).
-- Feature engineering (`total_score`, `avg_score`, etc.).
-- Logistic Regression model with train/test split.
-- Evaluation: accuracy + classification report.
-- Saved model for reuse.
-
----
-
-### 2️⃣ Sentiment Analysis (Text Classification)
-
-**Path:** `02_ML/sentiment_analysis`  
-
-**Description:**  
-Classifies short text reviews as **positive** or **negative**.
-
-**Highlights:**
-- Custom text cleaning and preprocessing.
-- Bag-of-words features with `CountVectorizer`.
-- Logistic Regression classifier.
-- Evaluation metrics and saved model + vectorizer.
+### **Tools**
+- VS Code  
+- Jupyter Notebooks  
+- Streamlit  
+- Git & GitHub  
+- Pandas, NumPy, Matplotlib, Seaborn  
 
 ---
 
-### 3️⃣ Fake News Detection (NLP + Streamlit App)
+## 📁 Repository Structure
 
+AI_ML/
+│
+├── 00_Notes/ # Daily logs & learning documentation
+├── 01_Python/ # Python foundations
+├── 02_ML/
+│ ├── student_performance_prediction/
+│ ├── sentiment_analysis/
+│ └── fake_news_detection/
+│
+└── README.md # (this file)
+
+
+---
+
+# ⭐ Featured ML/NLP Projects
+
+Below are structured, industry-style ML projects with clear organization and reproducible pipelines.
+
+---
+
+## 1️⃣ Fake News Detection (NLP + Streamlit App)  
 **Path:** `02_ML/fake_news_detection`  
 
-**Description:**  
-Detects whether a news headline/article is **FAKE** or **REAL**, and exposes the model via a **Streamlit app**.
+A complete NLP pipeline that classifies news headlines as **REAL** or **FAKE**, with a Streamlit web application.
 
-**Highlights:**
-- Text cleaning and TF-IDF (`TfidfVectorizer` with unigrams + bigrams).
-- Logistic Regression classifier with evaluation (confusion matrix + report).
-- Reusable `predict_text()` helper in `src/predict.py`.
-- Streamlit app in `app/app.py` where users can:
-  - Enter a headline
-  - Get a REAL/FAKE prediction
-- Models and vectorizers saved in `models/`.
+**Highlights**
+- TF-IDF with unigrams + bigrams  
+- Logistic Regression classifier  
+- Evaluation: confusion matrix + classification report  
+- Reusable prediction helper (`predict_text`)  
+- Streamlit app (`app/app.py`) to test predictions interactively  
+- Clean modular structure: preprocessing, training, evaluation, prediction modules
 
 ---
 
-## ⚙️ How to Run (High Level)
+## 2️⃣ Sentiment Analysis (NLP)  
+**Path:** `02_ML/sentiment_analysis`  
 
-Requirements are listed per project in their `requirements.txt`.
+Binary sentiment classifier for short reviews.
 
-General steps (example):
+**Highlights**
+- Text cleaning and normalization  
+- Bag-of-Words features with CountVectorizer  
+- Logistic Regression model  
+- Train/test split, evaluation metrics, saved model  
+- Organized project layout (src, models, reports)
+
+---
+
+## 3️⃣ Student Performance Prediction (Tabular ML)  
+**Path:** `02_ML/student_performance_prediction`  
+
+Predicts whether a student passes based on multiple subject scores and engineered features.
+
+**Highlights**
+- Data cleaning & feature engineering  
+- Logistic Regression classifier  
+- EDA visualizations  
+- Train/test split + evaluation  
+- Saved model + reports
+
+---
+
+## ⚙️ How to Run Any Project
 
 ```bash
-# In project folder, e.g. fake_news_detection
+# Move into a project
+cd 02_ML/fake_news_detection
+
+# Install dependencies
 pip install -r requirements.txt
 
 # Train model
@@ -94,5 +111,5 @@ python src/train_model.py
 # Evaluate model
 python src/evaluate_model.py
 
-# Run Streamlit app (for fake_news_detection)
+# For projects with apps
 streamlit run app/app.py
