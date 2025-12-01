@@ -259,3 +259,15 @@
 - `src/train_model.py`
 - `src/evaluate_model.py`
 - `reports/training_results.txt`
+
+---
+
+### Fake News Project – Skeleton Created (December 1, 2025)
+
+**Learned / Did:**
+- Designed full project structure for a Fake News Detection ML/NLP system.
+- Prepared folders for data, models, notebooks, src, reports, and app.
+- Wrote initial project README and dependencies list.
+
+**Built:**
+- `02_ML/fake_news_detection` project skeleton
