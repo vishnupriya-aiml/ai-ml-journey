@@ -285,3 +285,23 @@
 **Built:**
 - `02_ML/fake_news_detection/data/fake_news_small.csv`
 - `02_ML/fake_news_detection/src/data_preprocessing.py`
+
+---
+
+### Fake News Detection – Model Training (Dec 1, 2025)
+
+**Learned / Did:**
+- Trained Logistic Regression classifier on TF-IDF features for fake vs real news.
+- Saved model and TF-IDF vectorizer to disk.
+- Evaluated model with confusion matrix and classification report.
+- Built a reusable prediction helper (`predict_text`) for later use in a Streamlit app.
+
+**Built:**
+- `src/train_model.py`
+- `src/evaluate_model.py`
+- `src/predict.py`
+- `models/fake_news_model.pkl`
+- `models/vectorizer.pkl`
+- `reports/training_results.txt`
+- `reports/evaluation_report.txt`
+
