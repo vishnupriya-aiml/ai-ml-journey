@@ -242,3 +242,20 @@
 - `ML/sentiment_analysis/data/reviews_small.csv`
 - `ML/sentiment_analysis/src/data_preprocessing.py`
 - test logic in `train_model.py`
+
+---
+
+### Sentiment Project – Training Complete (Nov 25, 2025)
+
+**Learned / Did:**
+- Used CountVectorizer to convert text to features.
+- Trained Logistic Regression model for sentiment classification.
+- Saved model and vectorizer to `models/`.
+- Evaluated model using confusion matrix and classification report.
+
+**Built:**
+- `sentiment_model.pkl`
+- `vectorizer.pkl`
+- `src/train_model.py`
+- `src/evaluate_model.py`
+- `reports/training_results.txt`
