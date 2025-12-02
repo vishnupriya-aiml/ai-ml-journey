@@ -341,3 +341,15 @@
 
 **Built:**
 - `03_DL/image_classification_cnn` project skeleton
+
+---
+
+### Deep Learning – CIFAR-10 Data Loader (Dec 1, 2025)
+
+**Learned / Did:**
+- Installed TensorFlow (Keras) for deep learning.
+- Implemented a data loader for the CIFAR-10 image dataset.
+- Normalized images to [0, 1] and confirmed train/test shapes.
+
+**Built:**
+- `03_DL/image_classification_cnn/src/data_loader.py`
