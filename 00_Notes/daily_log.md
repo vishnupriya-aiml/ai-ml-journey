@@ -411,3 +411,15 @@
 **Built:**
 - `04_NLP/sentiment_lstm/data/reviews_lstm.csv`
 - `04_NLP/sentiment_lstm/src/data_loader.py`
+
+---
+
+### Deep Learning NLP – LSTM Tokenization & Padding (Dec 1, 2025)
+
+**Learned / Did:**
+- Implemented tokenization and padded sequence generation for sentiment texts.
+- Encoded text labels into numeric classes (0 = negative, 1 = positive).
+- Created a reusable preprocessing pipeline that splits data into train/test.
+
+**Built:**
+- `04_NLP/sentiment_lstm/src/text_preprocessor.py`
