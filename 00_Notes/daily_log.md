@@ -423,3 +423,30 @@
 
 **Built:**
 - `04_NLP/sentiment_lstm/src/text_preprocessor.py`
+
+---
+
+### Deep Learning NLP – LSTM Model Builder (Dec 1, 2025)
+
+**Learned / Did:**
+- Defined an LSTM-based model for binary sentiment classification.
+- Used Embedding + LSTM + Dense layers with dropout for regularization.
+- Compiled the model with Adam and binary crossentropy and verified the architecture via `model.summary()`.
+
+**Built:**
+- `04_NLP/sentiment_lstm/src/model_builder.py`
+
+---
+
+### Deep Learning NLP – LSTM Training (Dec 1, 2025)
+
+**Learned / Did:**
+- Connected data loading, preprocessing, and model builder into a full LSTM training pipeline.
+- Trained an LSTM-based sentiment classifier with validation split and callbacks.
+- Saved best and final models and wrote training logs to the reports folder.
+
+**Built:**
+- `04_NLP/sentiment_lstm/src/train.py`
+- `04_NLP/sentiment_lstm/models/lstm_sentiment_best.keras`
+- `04_NLP/sentiment_lstm/models/lstm_sentiment_final.keras`
+- `04_NLP/sentiment_lstm/reports/training_log.txt`
