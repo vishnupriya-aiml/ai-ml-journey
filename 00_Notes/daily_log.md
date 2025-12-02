@@ -305,3 +305,28 @@
 - `reports/training_results.txt`
 - `reports/evaluation_report.txt`
 
+---
+
+### Fake News Detection – Streamlit App (Dec 01, 2025)
+
+**Learned / Did:**
+- Built a Streamlit UI for fake news detection.
+- Integrated existing model + prediction helper into a web app.
+- Tested predictions on different news-like texts.
+
+**Built:**
+- `02_ML/fake_news_detection/app/app.py`
+
+
+---
+
+### Portfolio – GitHub Top-Level README (Dec 01, 2025)
+
+**Learned / Did:**
+- Wrote a professional top-level README for the AI_ML repo.
+- Documented key projects and repository structure for recruiters.
+- Turned the repo into a portfolio entry point.
+
+**Built:**
+- `AI_ML/README.md`
+
