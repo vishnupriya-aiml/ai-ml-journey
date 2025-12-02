@@ -353,3 +353,19 @@
 
 **Built:**
 - `03_DL/image_classification_cnn/src/data_loader.py`
+
+---
+
+### Deep Learning – CNN Training (Dec 1, 2025)
+
+**Learned / Did:**
+- Implemented a training script for a CNN on the CIFAR-10 dataset.
+- Used callbacks (ModelCheckpoint, EarlyStopping) to manage training.
+- Evaluated the model on the test set and saved the best and final models.
+- Logged training details to a report file.
+
+**Built:**
+- `03_DL/image_classification_cnn/src/train.py`
+- `03_DL/image_classification_cnn/models/cnn_cifar10_best.keras`
+- `03_DL/image_classification_cnn/models/cnn_cifar10_final.keras`
+- `03_DL/image_classification_cnn/reports/training_log.txt`
