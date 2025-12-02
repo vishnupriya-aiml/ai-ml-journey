@@ -398,3 +398,16 @@
 - `AI_ML/README.md`
 - `03_DL/image_classification_cnn/README.md`
 - LinkedIn + resume content for CNN project
+
+
+---
+
+### Deep Learning NLP – LSTM Dataset & Loader (Dec 1, 2025)
+
+**Learned / Did:**
+- Created a custom sentiment dataset for LSTM.
+- Implemented a clean data loader to read text and labels.
+
+**Built:**
+- `04_NLP/sentiment_lstm/data/reviews_lstm.csv`
+- `04_NLP/sentiment_lstm/src/data_loader.py`
