@@ -369,3 +369,32 @@
 - `03_DL/image_classification_cnn/models/cnn_cifar10_best.keras`
 - `03_DL/image_classification_cnn/models/cnn_cifar10_final.keras`
 - `03_DL/image_classification_cnn/reports/training_log.txt`
+
+
+---
+
+### Deep Learning – CNN Evaluation (Dec 1, 2025)
+
+**Learned / Did:**
+- Loaded the saved CNN model and evaluated it on the CIFAR-10 test set.
+- Generated a full classification report and confusion matrix.
+- Saved evaluation metrics into a report file for documentation.
+
+**Built:**
+- `03_DL/image_classification_cnn/src/evaluate.py`
+- `03_DL/image_classification_cnn/reports/evaluation_report.txt`
+- Updated `03_DL/image_classification_cnn/requirements.txt`
+
+---
+
+### Deep Learning – CNN Project Documentation & Portfolio Integration (Dec 1, 2025)
+
+**Learned / Did:**
+- Added the CNN image classification project to the main AI_ML portfolio README.
+- Documented the CNN project with a focused README including structure and run instructions.
+- Prepared LinkedIn and resume descriptions for the CNN project.
+
+**Built/Updated:**
+- `AI_ML/README.md`
+- `03_DL/image_classification_cnn/README.md`
+- LinkedIn + resume content for CNN project
