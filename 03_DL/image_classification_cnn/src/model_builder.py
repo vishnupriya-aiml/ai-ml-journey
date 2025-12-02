@@ -15,8 +15,10 @@ def build_cnn_model(input_shape=(32, 32, 3), num_classes=10) -> tf.keras.Model:
     Architecture:
     - Conv2D + ReLU + MaxPool
     - Conv2D + ReLU + MaxPool
+    - Conv2D + ReLU + MaxPool
     - Flatten
     - Dense + ReLU
+    - Dropout
     - Output Dense with softmax
     """
     model = models.Sequential()

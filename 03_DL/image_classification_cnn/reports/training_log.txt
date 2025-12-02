@@ -1,0 +1,9 @@
+Epochs: 5
+Batch size: 64
+Final test accuracy: 70.53%
+
+History keys:
+- accuracy
+- loss
+- val_accuracy
+- val_loss
