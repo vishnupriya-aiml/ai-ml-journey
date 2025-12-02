@@ -113,3 +113,19 @@ python src/evaluate_model.py
 
 # For projects with apps
 streamlit run app/app.py
+
+---
+
+## 4️⃣ Image Classification with CNN (Deep Learning)
+
+**Path:** `03_DL/image_classification_cnn`  
+
+Convolutional Neural Network trained on the CIFAR-10 dataset (32x32 color images, 10 classes).
+
+**Highlights**
+- TensorFlow / Keras CNN architecture with multiple Conv + MaxPool blocks.
+- Normalized CIFAR-10 data and structured loader (`data_loader.py`).
+- Training script with callbacks (ModelCheckpoint, EarlyStopping).
+- Saved best and final models (`cnn_cifar10_best.keras`, `cnn_cifar10_final.keras`).
+- Separate evaluation script with classification report & confusion matrix.
+- Clean structure: `data/`, `src/`, `models/`, `reports/`, `notebooks/`.
