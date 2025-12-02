@@ -330,3 +330,14 @@
 **Built:**
 - `AI_ML/README.md`
 
+---
+
+### Deep Learning – CNN Project Skeleton (Dec 01, 2025)
+
+**Learned / Did:**
+- Created a structured project for image classification using CNNs.
+- Prepared folders for data, models, notebooks, src, and reports.
+- Added basic README and requirements for TensorFlow/Keras.
+
+**Built:**
+- `03_DL/image_classification_cnn` project skeleton
