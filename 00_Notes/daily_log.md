@@ -478,3 +478,16 @@
 
 **Status:**
 BERT project structure ready. Next step: tokenizer & encoding pipeline.
+
+
+---
+
+### Transformer NLP – BERT Tokenization & Encoding (Dec 2, 2025)
+
+**Learned / Did:**
+- Loaded a pre-trained BERT tokenizer via HuggingFace.
+- Implemented encoding for texts into input_ids and attention_mask.
+- Encoded sentiment labels into numeric classes and split train/test sets.
+
+**Built:**
+- `04_NLP/transformer_bert/src/tokenizer_builder.py`
