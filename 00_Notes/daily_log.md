@@ -491,3 +491,15 @@ BERT project structure ready. Next step: tokenizer & encoding pipeline.
 
 **Built:**
 - `04_NLP/transformer_bert/src/tokenizer_builder.py`
+
+---
+
+### Transformer NLP – BERT Model Builder (Dec 2, 2025)
+
+**Learned / Did:**
+- Loaded a pre-trained BERT model (`bert-base-uncased`) with a sequence classification head.
+- Wrapped it as a TensorFlow/Keras model for binary sentiment classification.
+- Compiled the model with Adam optimizer and the built-in classification loss.
+
+**Built:**
+- `04_NLP/transformer_bert/src/model_builder.py`
