@@ -129,3 +129,22 @@ Convolutional Neural Network trained on the CIFAR-10 dataset (32x32 color images
 - Saved best and final models (`cnn_cifar10_best.keras`, `cnn_cifar10_final.keras`).
 - Separate evaluation script with classification report & confusion matrix.
 - Clean structure: `data/`, `src/`, `models/`, `reports/`, `notebooks/`.
+
+
+---
+
+## 5️⃣ Sentiment Classification using LSTM (Deep Learning NLP)
+
+**Path:** `04_NLP/sentiment_lstm`
+
+A deep learning NLP model using TensorFlow/Keras LSTM layers to classify text
+into positive or negative sentiment. Project includes complete data pipeline, 
+preprocessing, model builder, training loop with callbacks, and evaluation script.
+
+**Highlights:**
+- Tokenization, vocabulary building, and padded sequences.
+- LSTM architecture with Embedding → LSTM → Dense layers.
+- ModelCheckpoint + EarlyStopping callbacks.
+- Separate train and evaluate scripts with logs.
+- Saved best + final models (`lstm_sentiment_best.keras`, `lstm_sentiment_final.keras`).
+- Clean engineering structure: `data/`, `src/`, `models/`, `reports/`, `notebooks/`.

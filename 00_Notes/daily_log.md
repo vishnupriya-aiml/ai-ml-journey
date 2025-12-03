@@ -450,3 +450,31 @@
 - `04_NLP/sentiment_lstm/models/lstm_sentiment_best.keras`
 - `04_NLP/sentiment_lstm/models/lstm_sentiment_final.keras`
 - `04_NLP/sentiment_lstm/reports/training_log.txt`
+
+---
+
+### Deep Learning NLP – LSTM Evaluation (Dec 1, 2025)
+
+**Learned / Did:**
+- Loaded the saved LSTM sentiment model and evaluated it on the test set.
+- Generated a classification report and confusion matrix for positive/negative sentiment.
+- Saved evaluation metrics into an evaluation report file.
+
+**Built:**
+- `04_NLP/sentiment_lstm/src/evaluate.py`
+- `04_NLP/sentiment_lstm/reports/evaluation_report.txt`
+
+
+---
+
+### Transformer NLP – BERT Project Setup (Dec 2, 2025)
+
+**Created:**
+- transformer_bert project folder and full structure
+- requirements with TensorFlow + HuggingFace
+- dataset (sentiment_bert.csv)
+- placeholder README
+- data_loader module
+
+**Status:**
+BERT project structure ready. Next step: tokenizer & encoding pipeline.
