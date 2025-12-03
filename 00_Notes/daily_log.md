@@ -503,3 +503,18 @@ BERT project structure ready. Next step: tokenizer & encoding pipeline.
 
 **Built:**
 - `04_NLP/transformer_bert/src/model_builder.py`
+
+---
+
+### Transformer NLP – Training (Dec 2, 2025)
+
+**Learned / Did:**
+- Connected dataset, tokenizer, and Transformer classifier into a full training pipeline.
+- Trained a Transformer-style sentiment classifier using token IDs from a BERT tokenizer.
+- Saved best and final model weights and wrote a training log.
+
+**Built:**
+- `04_NLP/transformer_bert/src/train.py`
+- `04_NLP/transformer_bert/models/transformer_sentiment_best.keras`
+- `04_NLP/transformer_bert/models/transformer_sentiment_final.keras`
+- `04_NLP/transformer_bert/reports/training_log.txt`
