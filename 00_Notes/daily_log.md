@@ -605,3 +605,28 @@ BERT project structure ready. Next step: tokenizer & encoding pipeline.
 **Built:**
 - `02_ML/ml_toolkit/src/hyperparameter_search.py`
 - `02_ML/ml_toolkit/reports/hyperparameter_search.txt`
+
+
+---
+
+### Customer Review Insights Dashboard (Dec 4, 2025)
+
+**Learned / Did:**
+- Trained a realistic sentiment model using TF-IDF + Logistic Regression on app reviews.
+- Built a modular backend with utilities for loading data, making predictions, and computing analytics.
+- Developed a Streamlit dashboard to act like an internal product/support tool:
+  - upload CSVs
+  - run sentiment predictions
+  - view KPIs, charts, and raw data.
+
+**Built:**
+- `08_Applications/customer_review_insights/data/reviews_sample.csv`
+- `08_Applications/customer_review_insights/src/train_model.py`
+- `08_Applications/customer_review_insights/src/model_utils.py`
+- `08_Applications/customer_review_insights/src/data_utils.py`
+- `08_Applications/customer_review_insights/src/analytics.py`
+- `08_Applications/customer_review_insights/app/app.py`
+- `08_Applications/customer_review_insights/models/*`
+- `08_Applications/customer_review_insights/reports/training_report.txt`
+- `08_Applications/customer_review_insights/README.md`
+- `08_Applications/customer_review_insights/requirements.txt`
