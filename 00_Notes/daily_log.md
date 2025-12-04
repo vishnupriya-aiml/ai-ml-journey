@@ -537,3 +537,22 @@ BERT project structure ready. Next step: tokenizer & encoding pipeline.
 - Saved best and final model.
 - Generated evaluation report.
 - Project ready for portfolio.
+
+---
+
+### BiLSTM Text Classifier (Dec 3, 2025)
+
+**Learned / Did:**
+- Implemented a Bidirectional LSTM model for sentiment classification.
+- Built tokenization, padding, training, and evaluation pipeline similar to GRU.
+- Saved best and final BiLSTM models and generated evaluation metrics.
+
+**Built:**
+- `03_DL/bilstm_text_classifier/data/sentiment_bilstm.csv`
+- `03_DL/bilstm_text_classifier/src/data_loader.py`
+- `03_DL/bilstm_text_classifier/src/tokenizer_builder.py`
+- `03_DL/bilstm_text_classifier/src/model_builder.py`
+- `03_DL/bilstm_text_classifier/src/train.py`
+- `03_DL/bilstm_text_classifier/src/evaluate.py`
+- `03_DL/bilstm_text_classifier/models/*`
+- `03_DL/bilstm_text_classifier/reports/*`

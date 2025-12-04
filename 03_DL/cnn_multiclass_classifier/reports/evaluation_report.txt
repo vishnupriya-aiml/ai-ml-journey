@@ -1,0 +1,18 @@
+Test Accuracy: 76.87%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         cat     0.6726    0.7230    0.6969      1000
+         dog     0.7629    0.7370    0.7497      1000
+        frog     0.8822    0.8460    0.8637      1000
+
+    accuracy                         0.7687      3000
+   macro avg     0.7726    0.7687    0.7701      3000
+weighted avg     0.7726    0.7687    0.7701      3000
+
+
+Confusion Matrix:
+[[723 192  85]
+ [235 737  28]
+ [117  37 846]]
