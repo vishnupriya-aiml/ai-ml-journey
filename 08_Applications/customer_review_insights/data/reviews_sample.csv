@@ -1,0 +1,11 @@
+review_id,source,review_text,rating
+1,PlayStore,"The app is amazing, super fast and easy to use!",5
+2,AppStore,"Keeps crashing every time I open it. Very frustrating.",1
+3,Email,"Customer support was helpful, but the app UI is confusing.",3
+4,PlayStore,"Love the new features in the latest update.",5
+5,Web,"Slow performance and lots of bugs.",2
+6,AppStore,"Pretty good overall, but notifications are delayed.",4
+7,Web,"Terrible experience. I uninstalled after 10 minutes.",1
+8,Email,"Great design and smooth navigation. I recommend it.",5
+9,PlayStore,"Mediocre. Not bad, but not great either.",3
+10,Web,"Excellent app! Helps me every single day.",5

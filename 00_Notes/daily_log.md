@@ -591,3 +591,17 @@ BERT project structure ready. Next step: tokenizer & encoding pipeline.
 - `02_ML/ml_toolkit/src/preprocessing_template.py`
 - `02_ML/ml_toolkit/src/model_comparison.py`
 - `02_ML/ml_toolkit/reports/model_comparison.txt`
+
+---
+
+### ML Toolkit – Hyperparameter Tuning (Dec 4, 2025)
+
+**Learned / Did:**
+- Used the preprocessing toolkit to prepare data for model tuning.
+- Ran GridSearchCV on RandomForest to explore multiple hyperparameter combinations.
+- Compared cross-validation accuracy and evaluated the best model on the test set.
+- Saved a detailed hyperparameter search report to the toolkit reports folder.
+
+**Built:**
+- `02_ML/ml_toolkit/src/hyperparameter_search.py`
+- `02_ML/ml_toolkit/reports/hyperparameter_search.txt`
