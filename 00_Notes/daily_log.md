@@ -575,3 +575,19 @@ BERT project structure ready. Next step: tokenizer & encoding pipeline.
 - `03_DL/cnn_multiclass_classifier/src/evaluate.py`
 - `03_DL/cnn_multiclass_classifier/models/*`
 - `03_DL/cnn_multiclass_classifier/reports/*`
+
+---
+
+### ML Toolkit – Preprocessing & Model Comparison (Dec 4, 2025)
+
+**Learned / Did:**
+- Built a reusable preprocessing template with scaling and one-hot encoding.
+- Implemented a generic pipeline to split data, preprocess, and return train/test sets.
+- Created a model comparison script to evaluate Logistic Regression, Random Forest, and Gradient Boosting on the same dataset.
+- Saved a report summarizing model performances and metrics.
+
+**Built:**
+- `02_ML/ml_toolkit/data/students_sample.csv`
+- `02_ML/ml_toolkit/src/preprocessing_template.py`
+- `02_ML/ml_toolkit/src/model_comparison.py`
+- `02_ML/ml_toolkit/reports/model_comparison.txt`
