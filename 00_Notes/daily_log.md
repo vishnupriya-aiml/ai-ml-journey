@@ -518,3 +518,16 @@ BERT project structure ready. Next step: tokenizer & encoding pipeline.
 - `04_NLP/transformer_bert/models/transformer_sentiment_best.keras`
 - `04_NLP/transformer_bert/models/transformer_sentiment_final.keras`
 - `04_NLP/transformer_bert/reports/training_log.txt`
+
+---
+
+### Transformer NLP – Evaluation (Dec 2, 2025)
+
+**Learned / Did:**
+- Loaded the trained Transformer-style sentiment classifier and evaluated it on the test set.
+- Generated a classification report and confusion matrix for negative/positive sentiment.
+- Saved evaluation metrics into an evaluation report file.
+
+**Built:**
+- `04_NLP/transformer_bert/src/evaluate.py`
+- `04_NLP/transformer_bert/reports/evaluation_report.txt`

@@ -148,3 +148,21 @@ preprocessing, model builder, training loop with callbacks, and evaluation scrip
 - Separate train and evaluate scripts with logs.
 - Saved best + final models (`lstm_sentiment_best.keras`, `lstm_sentiment_final.keras`).
 - Clean engineering structure: `data/`, `src/`, `models/`, `reports/`, `notebooks/`.
+
+
+---
+
+## 6️⃣ Transformer-based Sentiment Classification (NLP)
+
+**Path:** `04_NLP/transformer_bert`
+
+A Transformer-style text classifier using a BERT tokenizer and a custom 
+Keras Transformer encoder to predict positive vs negative sentiment.
+
+**Highlights:**
+- Uses a BERT-style tokenizer to convert text into token IDs.
+- Custom Transformer encoder built with MultiHeadAttention and positional embeddings.
+- Training pipeline with validation split, ModelCheckpoint, and EarlyStopping.
+- Separate train and evaluate scripts with logs and metrics.
+- Saved best + final models (`transformer_sentiment_best.keras`, `transformer_sentiment_final.keras`).
+- Clean engineering structure: `data/`, `src/`, `models/`, `reports/`, `notebooks/`.
