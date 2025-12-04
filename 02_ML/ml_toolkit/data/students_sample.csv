@@ -1,0 +1,11 @@
+hours_studied,attendance_rate,gender,school_type,passed
+2,60,F,public,0
+5,75,F,public,0
+8,80,M,private,1
+10,90,F,private,1
+1,50,M,public,0
+7,85,F,private,1
+4,70,M,public,0
+9,95,F,private,1
+3,65,F,public,0
+6,88,M,private,1

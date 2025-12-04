@@ -556,3 +556,22 @@ BERT project structure ready. Next step: tokenizer & encoding pipeline.
 - `03_DL/bilstm_text_classifier/src/evaluate.py`
 - `03_DL/bilstm_text_classifier/models/*`
 - `03_DL/bilstm_text_classifier/reports/*`
+
+
+---
+
+### Multi-class CNN Image Classifier (Dec 3, 2025)
+
+**Learned / Did:**
+- Used CIFAR-10 and filtered it to three classes (cat, dog, frog).
+- Implemented a multi-class CNN with convolution, pooling, and dense layers.
+- Trained the model with validation split, checkpointing, and early stopping.
+- Evaluated using accuracy, classification report, and confusion matrix.
+
+**Built:**
+- `03_DL/cnn_multiclass_classifier/src/data_loader.py`
+- `03_DL/cnn_multiclass_classifier/src/model_builder.py`
+- `03_DL/cnn_multiclass_classifier/src/train.py`
+- `03_DL/cnn_multiclass_classifier/src/evaluate.py`
+- `03_DL/cnn_multiclass_classifier/models/*`
+- `03_DL/cnn_multiclass_classifier/reports/*`
