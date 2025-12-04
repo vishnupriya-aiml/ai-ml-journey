@@ -531,3 +531,9 @@ BERT project structure ready. Next step: tokenizer & encoding pipeline.
 **Built:**
 - `04_NLP/transformer_bert/src/evaluate.py`
 - `04_NLP/transformer_bert/reports/evaluation_report.txt`
+
+### GRU Text Classifier (Dec 3, 2025)
+- Created full dataset, tokenizer, GRU model, training and evaluation pipeline.
+- Saved best and final model.
+- Generated evaluation report.
+- Project ready for portfolio.

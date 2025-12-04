@@ -1,0 +1,8 @@
+Epochs: 15
+Batch size: 2
+Training completed for BiLSTM model.
+History keys:
+- accuracy
+- loss
+- val_accuracy
+- val_loss
